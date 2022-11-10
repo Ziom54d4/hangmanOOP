@@ -13,7 +13,7 @@ class Game {
     startGry() {
         // tutajBuzki
         const buzki = new Buzki();
-        buzki.ustawienieOpacityBuziek(elementBuzki);
+        buzki.ustawOpacityBuziek(elementBuzki);
 
         // tutajHasla
         const iloscHasel = this.hasla.length;
