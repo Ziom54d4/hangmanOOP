@@ -5,7 +5,7 @@ export class Buzki {
         this.licznikBuzki = licznikBuzki;
     }
 
-    ustawienieOpacityBuziek(elementBuzki) {
+    ustawOpacityBuziek(elementBuzki) {
         const iloscBuziek = elementBuzki.children.length;
         for(let i=0; i<iloscBuziek; i++) {
             if(i === 0) {
