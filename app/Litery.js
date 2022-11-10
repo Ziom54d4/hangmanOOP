@@ -10,6 +10,7 @@ export class Litery {
         this.elementHasla = elementHasla;
     }
 
+    //TODO: zazwyczsaj metody o takim sposobie nazewnictwa nie zmieniają stanu, a zwracają boolean
     ktoraLiteraKliknieta(elementLitery) {
         const dzieciIdLitery = elementLitery.children;
         const iloscDzieciIdLitery = elementLitery.children.length;
@@ -20,6 +21,7 @@ export class Litery {
         }
     }
 
+    //TODO: zazwyczsaj metody o takim sposobie nazewnictwa nie zmieniają stanu, a zwracają boolean
     czyTrafionaLitera(litera) {
         if(this.haslo.indexOf(litera) == -1) {
             const buzki = new Buzki(this.licznikBuzki++);
